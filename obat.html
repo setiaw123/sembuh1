@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pengenalan Obat Kemotheraphy</title>
+	<link rel="stylesheet" href="css/stylesheet.css">
+	<script>
+      function readMore(){
+        var temp = document.getElementById("readMore").style.display;
+        if(temp=="none")
+          document.getElementById("readMore").style.display = "block";
+        else
+          document.getElementById("readMore").style.display = "none";
+      }
+      function readMore1(){
+        var temp = document.getElementById("readMore1").style.display;
+        if(temp=="none")
+          document.getElementById("readMore1").style.display = "block";
+        else
+          document.getElementById("readMore1").style.display = "none";
+      }
+     function readMore2(){
+        var temp = document.getElementById("readMore2").style.display;
+        if(temp=="none")
+          document.getElementById("readMore2").style.display = "block";
+        else
+          document.getElementById("readMore2").style.display = "none";
+      }
+    </script>
+</head>
+<body>
+<div id="header">
+	<h1 class="center">Multiple Myeloma Indonesia</h1>
+    <nav>
+        <a href="index.html">Tentang Kanker Multiple Myeloma</a>
+        <a href="obat.html">Daftar Obat</a>
+        <a href="contact.html">Daftar Dokter</a>
+    </nav>
+</div>
+<div id="wrapper-content">
+
+	<h1 class="center">Mengenal obat obat kemotheraphy</h1>
+
+
+    <div class="content">
+		    <img src="images/velcade.jpg">
+		    <h2>Velcade</h2>
+		    <h4>Obat kemo yang paling mahal <br /> dengan efek samping paling minimal
+		    </h4>
+
+	    	<div style="display: none;margin-left: 185px;" id="readMore">
+	    		<p>Bahan aktif obat :<br>
+	    		<ol>
+	    			<li>Bonterzomid</li>
+	    			<li>Jensen and Jensen</li>
+	    		</ol>
+	    		</p>
+	    	</div>
+		    <button onclick="readMore()" style="margin-left:180px;">Read more</button>
+	</div>
+
+	<div class="content">
+		    <img src="images/dexamethasone.jpg">
+		    <h2>Dexamethasone</h2>
+		    <h4>Obat berbahan streoid <br /> Termasuk sangat murah
+		    </h4>
+
+	    	<div style="display: none;margin-left: 185px;" id="readMore1">
+	    		<p>Efek samping obat<br>
+	    		<ol>
+	    			<li>Moon Face </li>
+	    			<li>Tulang Keropos</li>
+	    		</ol>
+	    		</p>
+	    	</div>
+		    <button onclick="readMore1()" style="margin-left:180px;">Read more</button>
+	</div>
+	
+	<div class="content">
+		    <img src="images/Cloph.jpg">
+		    <h2>cyclophosphamide</h2>
+		    <h4>Semua orang dari sabang sampai merauke sangat menyukai makanan yang satu ini. <br />Berikut adalah
+		    cara memasak... 
+		    </h4>
+
+	    	<div style="display: none;margin-left: 185px;" id="readMore2">
+	    		<p>Bumbu - bumbu :<br>
+	    		<ol>
+	    			<li>Daging ayam 2 kg</li>
+	    			<li>Rempah - rempah</li>
+	    		</ol>
+	    		</p>
+	    	</div>
+		    <button onclick="readMore2()" style="margin-left:180px;">Read more</button>
+	</div>
+
+
+</div>
+
+<div id="footer">
+    <p align="center">Copyright Coding mums.</p>
+</div>
+</body>
+</html>
